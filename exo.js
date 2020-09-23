@@ -17,7 +17,7 @@ else if (Age >= 18) {
 }
 /*Exercice 2*/
 
-var rand = Math.floor((Math.random() * (42)) + 1) ;
+var rand = Math.floor((Math.random() * (32)) + 1) ;
 
 
 if (rand >= 0 && rand <= 10 ) {
@@ -37,7 +37,9 @@ else{
 }
 /*Exercice 3*/
 
-var = Date 
+var ladate=new Date()
+document.write("ladate.getDay() = "+ladate.getDay()+"<BR>")
+var tab_jour=new Array("Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi");
 
 switch (Date) {
     case lundi:
