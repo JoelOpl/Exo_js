@@ -23,3 +23,13 @@ var my42count = "quarante-deux";
 console.log(my42count.length);
 /*Exercice 6*/
 var myArray42 = ["q", "u", "a", "r", "a", "n", "t", "e", "d", "e", "u", "x"];
+
+var Age = 18;
+
+var Age = 18;
+
+if (Age >= 18) {
+  console.log("bb");
+} else {
+  console.log("ccc");
+}
