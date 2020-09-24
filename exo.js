@@ -37,31 +37,29 @@ else{
 }
 /*Exercice 3*/
 
-var ladate=new Date()
-document.write("ladate.getDay() = "+ladate.getDay()+"<BR>")
-var tab_jour=new Array("Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi");
-
-switch (Date) {
-    case lundi:
+var date =new Date()
+var getDay = date.getDay
+switch (getDay) {
+    case 1:
         console.log("nous sommes" + Date)
         break;
 
-        case mardi:
+        case 2:
             console.log("nous sommes" + Date)
             break;
-            case mercredi:
+            case 3:
                 console.log("nous sommes" + Date)
                 break;
-                case jeudi:
+                case 4:
                     console.log("nous sommes" + Date)
                       break;
-                      case vendredi:
+                      case 5:
                         console.log("nous sommes" + Date)
                            break;
-                           case samedi:
+                           case 6:
                             console.log("nous sommes" + Date)
         break;
-        case dimenche:
+        case 7:
             console.log("nous sommes" + Date)
         break;
     default:
